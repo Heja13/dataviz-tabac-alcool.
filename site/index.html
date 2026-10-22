@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabac et alcool en France</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <span id="logo">Tabac et alcool</span>
+        <nav>
+            <a href="index.html" class="actif">Tabac</a>
+            <a href="alcool.html">Alcool</a>
+            <a href="croisement.html">Croisement</a>
+            <a href="#">Méthode</a>
+        </nav>
+    </header>
+
+    <main>
+            <main>
+        <div class="graphBlock">
+            <h2>Le tabagisme recule depuis 2016</h2>
+            <div class="chartContainer">
+                <canvas id="tabacParSexe"></canvas>
+            </div>
+            <div class="texte">
+                <p>
+                    <strong>Ce qu'on observe.</strong> Le graphique commence en 2005 : entre 2000 et 2005, les taux varient peu, avec une légère baisse chez les femmes.
+                    Entre 2016 et 2023, la part de fumeurs quotidiens passe d'environ 33 % à 25 % chez
+                    les hommes et de 26 % à 21 % chez les femmes. L'écart se
+                    réduit de 7 à 4,5 points.
+                </p>
+                <p>
+                    <strong>Comment lire. Chaque point est une estimation issue d'une enquête auprès d'un échantillon, 
+                        avec une marge d'erreur de quelques points :
+                         on ne commente donc pas les petites variations d'une année à l'autre.</strong> .
+                </p>
+                <p class="source">
+                    Source : Santé publique France (Baromètre), via Odissé.
+                    Personnes de 18 à 75 ans, France hexagonale.
+                </p>
+            </div>
+        </div>
+
+        <div class="graphBlock">
+            <h2>Plus de fumeurs au chômage</h2>
+            <div class="chartContainer">
+                <canvas id="tabacParSituation"></canvas>
+            </div>
+            <div class="texte">
+                <p>
+                    <strong>Ce qu'on observe.</strong> En 2023, environ 36 % des
+                    personnes au chômage fument tous les jours, contre 25 % de
+                    celles qui travaillent et 17 % des étudiants. L'écart entre
+                    chômage et travail passe d'environ 19 à 11 points depuis
+                    2016 : il se réduit, mais reste important.
+                </p>
+                <p>
+                    <strong>Comment lire.</strong> La marge d'erreur est plus grande pour le chômage,
+                     car l'échantillon est plus petit :
+                      on ne commente pas les petites variations d'une année à l'autre
+                </p>
+                <p class="source">
+                    Source : Santé publique France (Baromètre), via Odissé.
+                    Personnes de 18 à 75 ans, France hexagonale.
+                </p>
+            </div>
+                    <div class="graphBlock">
+            <h2>Plus de fumeurs chez les revenus faibles</h2>
+            <div class="chartContainer">
+                <canvas id="tabacParRevenu"></canvas>
+            </div>
+            <div class="texte">
+                <p>
+                    <strong>Ce qu'on observe.</strong> En 2023, environ 29 %
+                    des personnes du tiers le plus modeste fument tous les
+                    jours, contre 24 % pour le tiers intermédiaire et 17 %
+                    pour le tiers le plus aisé. L'écart entre revenus faibles
+                    et élevés passe d'environ 18 points en 2016 à 12 points en
+                    2023 : il se réduit, mais reste important.
+                </p>
+                <p>
+                    <strong>Comment lire.</strong> Les groupes sont des
+                    terciles : chacun représente un tiers des personnes
+                    interrogées, classées par revenu du foyer par unité de
+                    consommation. Les seuils se calculent chaque année, ils ne
+                    correspondent donc pas à un montant fixe en euros.
+                </p>
+                <p class="source">
+                    Source : Santé publique France (Baromètre), via Odissé.
+                    Personnes de 18 à 75 ans, France hexagonale.
+                </p>
+            </div>
+        </div>
+        </div>
+    </main>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="data.js"></script>
+    <script src="outils.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

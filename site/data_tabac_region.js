@@ -1,0 +1,220 @@
+const csvTabacRegion = `
+annee,region,region_code,sexe,tabac_quotidien_taux,tabac_quotidien_ic_inf,tabac_quotidien_ic_sup,tabac_quotidien_diff_reg,cle_dupliquee
+2000,Auvergne et Rhône-Alpes,84,Femmes,27.74,24.26,31.51,B,False
+2000,Auvergne et Rhône-Alpes,84,Hommes,32.08,28.16,36.27,B,False
+2000,Auvergne et Rhône-Alpes,84,Hommes et Femmes,29.85,27.21,32.63,B,False
+2000,Bourgogne et Franche-Comté,27,Femmes,23.18,18.25,28.99,B,False
+2000,Bourgogne et Franche-Comté,27,Hommes,35.54,28.87,42.83,B,False
+2000,Bourgogne et Franche-Comté,27,Hommes et Femmes,29.22,24.96,33.88,B,False
+2000,Bretagne,53,Femmes,24.67,20.23,29.71,B,False
+2000,Bretagne,53,Hommes,34.28,28.54,40.53,B,False
+2000,Bretagne,53,Hommes et Femmes,29.36,25.68,33.33,B,False
+2000,Centre-Val de Loire,24,Femmes,22.75,17.63,28.83,B,False
+2000,Centre-Val de Loire,24,Hommes,36.46,29.84,43.63,B,False
+2000,Centre-Val de Loire,24,Hommes et Femmes,29.44,25.11,34.17,B,False
+2000,Grand Est,44,Femmes,26.97,23.17,31.14,B,False
+2000,Grand Est,44,Hommes,36.69,31.86,41.8,B,False
+2000,Grand Est,44,Hommes et Femmes,31.7,28.59,34.99,B,False
+2000,Hauts-de-France,32,Femmes,21.42,17.94,25.38,A,False
+2000,Hauts-de-France,32,Hommes,33.47,28.87,38.42,B,False
+2000,Hauts-de-France,32,Hommes et Femmes,27.3,24.38,30.43,B,False
+2000,Normandie,28,Femmes,27.87,22.89,33.47,B,False
+2000,Normandie,28,Hommes,32.09,26.32,38.45,B,False
+2000,Normandie,28,Hommes et Femmes,29.92,26.07,34.09,B,False
+2000,Nouvelle Aquitaine,75,Femmes,27.88,24.1,31.99,B,False
+2000,Nouvelle Aquitaine,75,Hommes,32.83,28.36,37.64,B,False
+2000,Nouvelle Aquitaine,75,Hommes et Femmes,30.3,27.35,33.42,B,False
+2000,Occitanie,76,Femmes,29.8,25.55,34.43,B,False
+2000,Occitanie,76,Hommes,31.62,26.94,36.71,B,False
+2000,Occitanie,76,Hommes et Femmes,30.69,27.49,34.08,B,False
+2000,Pays de la Loire,52,Femmes,21.26,17.23,25.94,A,False
+2000,Pays de la Loire,52,Hommes,31.68,26.43,37.43,B,False
+2000,Pays de la Loire,52,Hommes et Femmes,26.35,22.99,30.01,A,False
+2000,Provence-Alpes-Côte d'Azur,93,Femmes,31.73,27.09,36.77,C,False
+2000,Provence-Alpes-Côte d'Azur,93,Hommes,36.52,31.19,42.2,B,False
+2000,Provence-Alpes-Côte d'Azur,93,Hommes et Femmes,34.07,30.5,37.82,C,False
+2000,Île-de-France,11,Femmes,27.4,24.41,30.61,B,False
+2000,Île-de-France,11,Hommes,34.6,30.72,38.7,B,False
+2000,Île-de-France,11,Hommes et Femmes,30.92,28.46,33.49,B,False
+2005,Auvergne et Rhône-Alpes,84,Femmes,22.24,20.11,24.52,B,False
+2005,Auvergne et Rhône-Alpes,84,Hommes,29.42,26.84,32.15,A,False
+2005,Auvergne et Rhône-Alpes,84,Hommes et Femmes,25.76,24.08,27.52,A,False
+2005,Bourgogne et Franche-Comté,27,Femmes,26.54,22.91,30.52,B,False
+2005,Bourgogne et Franche-Comté,27,Hommes,31.65,27.47,36.14,B,False
+2005,Bourgogne et Franche-Comté,27,Hommes et Femmes,29.04,26.25,32.01,B,False
+2005,Bretagne,53,Femmes,22.88,19.9,26.16,B,False
+2005,Bretagne,53,Hommes,32.13,28.3,36.21,B,False
+2005,Bretagne,53,Hommes et Femmes,27.41,24.96,30.01,B,False
+2005,Centre-Val de Loire,24,Femmes,22.12,18.47,26.25,B,False
+2005,Centre-Val de Loire,24,Hommes,30.95,25.86,36.55,B,False
+2005,Centre-Val de Loire,24,Hommes et Femmes,26.44,23.26,29.9,B,False
+2005,Grand Est,44,Femmes,22.34,19.6,25.35,B,False
+2005,Grand Est,44,Hommes,34.23,30.59,38.07,B,False
+2005,Grand Est,44,Hommes et Femmes,28.16,25.85,30.6,B,False
+2005,Hauts-de-France,32,Femmes,23.33,20.65,26.25,B,False
+2005,Hauts-de-France,32,Hommes,35.15,31.82,38.64,B,False
+2005,Hauts-de-France,32,Hommes et Femmes,29.13,26.97,31.39,B,False
+2005,Normandie,28,Femmes,24.83,21.32,28.71,B,False
+2005,Normandie,28,Hommes,32.51,27.51,37.94,B,False
+2005,Normandie,28,Hommes et Femmes,28.6,25.49,31.92,B,False
+2005,Nouvelle Aquitaine,75,Femmes,25.27,22.73,27.98,B,False
+2005,Nouvelle Aquitaine,75,Hommes,30.91,27.85,34.14,B,False
+2005,Nouvelle Aquitaine,75,Hommes et Femmes,28.02,26.03,30.11,B,False
+2005,Occitanie,76,Femmes,26.78,24.21,29.52,C,False
+2005,Occitanie,76,Hommes,31.5,28.5,34.67,B,False
+2005,Occitanie,76,Hommes et Femmes,29.1,27.11,31.17,B,False
+2005,Pays de la Loire,52,Femmes,18.82,16.11,21.86,A,False
+2005,Pays de la Loire,52,Hommes,28.64,24.99,32.59,B,False
+2005,Pays de la Loire,52,Hommes et Femmes,23.61,21.32,26.07,A,False
+2005,Provence-Alpes-Côte d'Azur,93,Femmes,27.72,24.97,30.66,C,False
+2005,Provence-Alpes-Côte d'Azur,93,Hommes,33.15,29.68,36.81,B,False
+2005,Provence-Alpes-Côte d'Azur,93,Hommes et Femmes,30.38,28.14,32.71,C,False
+2005,Île-de-France,11,Femmes,21.49,19.51,23.61,A,False
+2005,Île-de-France,11,Hommes,32.6,29.87,35.45,B,False
+2005,Île-de-France,11,Hommes et Femmes,26.94,25.24,28.7,B,False
+2010,Auvergne et Rhône-Alpes,84,Femmes,24.79,22.35,27.41,B,False
+2010,Auvergne et Rhône-Alpes,84,Hommes,29.66,26.94,32.53,A,False
+2010,Auvergne et Rhône-Alpes,84,Hommes et Femmes,27.16,25.32,29.08,A,False
+2010,Bourgogne et Franche-Comté,27,Femmes,29.28,25.29,33.61,B,False
+2010,Bourgogne et Franche-Comté,27,Hommes,34.27,29.66,39.2,B,False
+2010,Bourgogne et Franche-Comté,27,Hommes et Femmes,31.7,28.62,34.96,B,False
+2010,Bretagne,53,Femmes,24.18,20.86,27.83,B,False
+2010,Bretagne,53,Hommes,33.64,29.48,38.06,B,False
+2010,Bretagne,53,Hommes et Femmes,28.78,26.09,31.63,B,False
+2010,Centre-Val de Loire,24,Femmes,25.33,21.29,29.86,B,False
+2010,Centre-Val de Loire,24,Hommes,33.58,28.56,38.99,B,False
+2010,Centre-Val de Loire,24,Hommes et Femmes,29.33,26.06,32.82,B,False
+2010,Grand Est,44,Femmes,25.08,22.54,27.81,B,False
+2010,Grand Est,44,Hommes,33.34,30.2,36.64,B,False
+2010,Grand Est,44,Hommes et Femmes,29.09,27.06,31.21,B,False
+2010,Hauts-de-France,32,Femmes,26.02,23.4,28.83,B,False
+2010,Hauts-de-France,32,Hommes,35.99,32.71,39.41,B,False
+2010,Hauts-de-France,32,Hommes et Femmes,30.87,28.75,33.07,B,False
+2010,Normandie,28,Femmes,27.74,24.26,31.52,B,False
+2010,Normandie,28,Hommes,34.04,29.79,38.57,B,False
+2010,Normandie,28,Hommes et Femmes,30.8,28.03,33.72,B,False
+2010,Nouvelle Aquitaine,75,Femmes,30.27,27.31,33.41,C,False
+2010,Nouvelle Aquitaine,75,Hommes,33.39,30.16,36.77,B,False
+2010,Nouvelle Aquitaine,75,Hommes et Femmes,31.78,29.58,34.07,B,False
+2010,Occitanie,76,Femmes,29.34,26.41,32.44,B,False
+2010,Occitanie,76,Hommes,36.84,33.41,40.4,C,False
+2010,Occitanie,76,Hommes et Femmes,32.98,30.71,35.34,C,False
+2010,Pays de la Loire,52,Femmes,20.54,17.33,24.18,A,False
+2010,Pays de la Loire,52,Hommes,32.05,28.24,36.12,B,False
+2010,Pays de la Loire,52,Hommes et Femmes,26.14,23.61,28.83,A,False
+2010,Provence-Alpes-Côte d'Azur,93,Femmes,31.85,28.63,35.25,C,False
+2010,Provence-Alpes-Côte d'Azur,93,Hommes,34.52,30.67,38.58,B,False
+2010,Provence-Alpes-Côte d'Azur,93,Hommes et Femmes,33.14,30.62,35.76,C,False
+2010,Île-de-France,11,Femmes,24.92,22.79,27.19,B,False
+2010,Île-de-France,11,Hommes,31.31,28.84,33.9,B,False
+2010,Île-de-France,11,Hommes et Femmes,28.02,26.38,29.72,A,False
+2014,Auvergne et Rhône-Alpes,84,Femmes,25.44,22.08,29.1,B,False
+2014,Auvergne et Rhône-Alpes,84,Hommes,27.32,23.97,30.95,A,False
+2014,Auvergne et Rhône-Alpes,84,Hommes et Femmes,26.35,23.95,28.9,B,False
+2014,Bourgogne et Franche-Comté,27,Femmes,24.49,18.94,31.03,B,False
+2014,Bourgogne et Franche-Comté,27,Hommes,30.52,24.65,37.08,B,False
+2014,Bourgogne et Franche-Comté,27,Hommes et Femmes,27.42,23.3,31.97,B,False
+2014,Bretagne,53,Femmes,23.46,19.01,28.59,B,False
+2014,Bretagne,53,Hommes,37.38,31.64,43.51,B,False
+2014,Bretagne,53,Hommes et Femmes,30.22,26.48,34.25,B,False
+2014,Centre-Val de Loire,24,Femmes,26.03,19.47,33.87,B,False
+2014,Centre-Val de Loire,24,Hommes,35.54,28.9,42.78,B,False
+2014,Centre-Val de Loire,24,Hommes et Femmes,30.66,25.87,35.9,B,False
+2014,Grand Est,44,Femmes,29.02,24.86,33.56,C,False
+2014,Grand Est,44,Hommes,33.64,28.92,38.71,B,False
+2014,Grand Est,44,Hommes et Femmes,31.26,28.09,34.63,B,False
+2014,Hauts-de-France,32,Femmes,22.63,18.93,26.8,B,False
+2014,Hauts-de-France,32,Hommes,40.06,35.07,45.27,C,False
+2014,Hauts-de-France,32,Hommes et Femmes,31.09,27.87,34.5,B,False
+2014,Normandie,28,Femmes,28.85,23.34,35.06,B,False
+2014,Normandie,28,Hommes,34.36,28.3,40.98,B,False
+2014,Normandie,28,Hommes et Femmes,31.53,27.37,36.01,B,False
+2014,Nouvelle Aquitaine,75,Femmes,27.6,23.82,31.73,B,False
+2014,Nouvelle Aquitaine,75,Hommes,34.28,30.18,38.62,B,False
+2014,Nouvelle Aquitaine,75,Hommes et Femmes,30.85,28.03,33.82,B,False
+2014,Occitanie,76,Femmes,25.44,21.33,30.03,B,False
+2014,Occitanie,76,Hommes,36.24,31.62,41.13,B,False
+2014,Occitanie,76,Hommes et Femmes,30.69,27.55,34.02,B,False
+2014,Pays de la Loire,52,Femmes,20.42,16.19,25.42,B,False
+2014,Pays de la Loire,52,Hommes,29.8,24.79,35.35,B,False
+2014,Pays de la Loire,52,Hommes et Femmes,24.99,21.63,28.68,B,False
+2014,Provence-Alpes-Côte d'Azur,93,Femmes,25.83,21.66,30.49,B,False
+2014,Provence-Alpes-Côte d'Azur,93,Hommes,35.83,30.87,41.12,B,False
+2014,Provence-Alpes-Côte d'Azur,93,Hommes et Femmes,30.69,27.4,34.19,B,False
+2014,Île-de-France,11,Femmes,19.91,17.51,22.55,A,False
+2014,Île-de-France,11,Hommes,28.36,25.12,31.83,A,False
+2014,Île-de-France,11,Hommes et Femmes,24.01,21.97,26.17,A,False
+2017,Auvergne et Rhône-Alpes,84,Femmes,23.64,21.21,26.26,B,False
+2017,Auvergne et Rhône-Alpes,84,Hommes,28.98,26.22,31.9,B,False
+2017,Auvergne et Rhône-Alpes,84,Hommes et Femmes,26.24,24.38,28.19,B,False
+2017,Bourgogne et Franche-Comté,27,Femmes,23.32,19.46,27.69,B,False
+2017,Bourgogne et Franche-Comté,27,Hommes,34.17,29.15,39.57,B,False
+2017,Bourgogne et Franche-Comté,27,Hommes et Femmes,28.6,25.36,32.08,B,False
+2017,Bretagne,53,Femmes,24.68,20.93,28.85,B,False
+2017,Bretagne,53,Hommes,28.45,24.49,32.78,B,False
+2017,Bretagne,53,Hommes et Femmes,26.51,23.75,29.48,B,False
+2017,Centre-Val de Loire,24,Femmes,24.7,20.1,29.95,B,False
+2017,Centre-Val de Loire,24,Hommes,31.44,26.43,36.92,B,False
+2017,Centre-Val de Loire,24,Hommes et Femmes,27.98,24.52,31.72,B,False
+2017,Grand Est,44,Femmes,27.45,24.17,30.99,B,False
+2017,Grand Est,44,Hommes,32.88,29.41,36.55,B,False
+2017,Grand Est,44,Hommes et Femmes,30.1,27.69,32.62,C,False
+2017,Hauts-de-France,32,Femmes,26.87,23.6,30.41,B,False
+2017,Hauts-de-France,32,Hommes,34.24,30.5,38.17,C,False
+2017,Hauts-de-France,32,Hommes et Femmes,30.45,27.94,33.08,C,False
+2017,Normandie,28,Femmes,23.83,20.11,28.0,B,False
+2017,Normandie,28,Hommes,27.42,23.2,32.09,B,False
+2017,Normandie,28,Hommes et Femmes,25.59,22.73,28.66,B,False
+2017,Nouvelle Aquitaine,75,Femmes,26.14,23.12,29.41,B,False
+2017,Nouvelle Aquitaine,75,Hommes,30.19,26.9,33.69,B,False
+2017,Nouvelle Aquitaine,75,Hommes et Femmes,28.12,25.87,30.49,B,False
+2017,Occitanie,76,Femmes,28.17,25.04,31.52,C,False
+2017,Occitanie,76,Hommes,32.51,29.12,36.09,B,False
+2017,Occitanie,76,Hommes et Femmes,30.28,27.95,32.72,C,False
+2017,Pays de la Loire,52,Femmes,21.04,17.77,24.73,B,False
+2017,Pays de la Loire,52,Hommes,25.08,21.25,29.36,A,False
+2017,Pays de la Loire,52,Hommes et Femmes,23.01,20.45,25.78,A,False
+2017,Provence-Alpes-Côte d'Azur,93,Femmes,28.97,25.56,32.63,C,False
+2017,Provence-Alpes-Côte d'Azur,93,Hommes,35.55,31.52,39.8,C,False
+2017,Provence-Alpes-Côte d'Azur,93,Hommes et Femmes,32.17,29.5,34.96,C,False
+2017,Île-de-France,11,Femmes,18.71,16.84,20.74,A,False
+2017,Île-de-France,11,Hommes,24.11,21.91,26.46,A,False
+2017,Île-de-France,11,Hommes et Femmes,21.34,19.88,22.88,A,False
+2021,Auvergne et Rhône-Alpes,84,Femmes,,,,,False
+2021,Auvergne et Rhône-Alpes,84,Hommes,,,,,False
+2021,Auvergne et Rhône-Alpes,84,Hommes et Femmes,24.87,22.76,26.98,B,False
+2021,Bourgogne et Franche-Comté,27,Femmes,,,,,False
+2021,Bourgogne et Franche-Comté,27,Hommes,,,,,False
+2021,Bourgogne et Franche-Comté,27,Hommes et Femmes,26.72,23.08,30.36,B,False
+2021,Bretagne,53,Femmes,,,,,False
+2021,Bretagne,53,Hommes,,,,,False
+2021,Bretagne,53,Hommes et Femmes,25.53,22.39,28.67,B,False
+2021,Centre-Val de Loire,24,Femmes,,,,,False
+2021,Centre-Val de Loire,24,Hommes,,,,,False
+2021,Centre-Val de Loire,24,Hommes et Femmes,21.65,17.97,25.33,B,False
+2021,Grand Est,44,Femmes,,,,,False
+2021,Grand Est,44,Hommes,,,,,False
+2021,Grand Est,44,Hommes et Femmes,26.81,24.1,29.51,B,False
+2021,Hauts-de-France,32,Femmes,,,,,False
+2021,Hauts-de-France,32,Hommes,,,,,False
+2021,Hauts-de-France,32,Hommes et Femmes,26.38,23.69,29.07,B,False
+2021,Normandie,28,Femmes,,,,,False
+2021,Normandie,28,Hommes,,,,,False
+2021,Normandie,28,Hommes et Femmes,25.29,21.92,28.66,B,False
+2021,Nouvelle Aquitaine,75,Femmes,,,,,False
+2021,Nouvelle Aquitaine,75,Hommes,,,,,False
+2021,Nouvelle Aquitaine,75,Hommes et Femmes,25.28,22.89,27.67,B,False
+2021,Occitanie,76,Femmes,,,,,False
+2021,Occitanie,76,Hommes,,,,,False
+2021,Occitanie,76,Hommes et Femmes,28.52,25.84,31.19,C,False
+2021,Pays de la Loire,52,Femmes,,,,,False
+2021,Pays de la Loire,52,Hommes,,,,,False
+2021,Pays de la Loire,52,Hommes et Femmes,22.4,19.47,25.34,A,False
+2021,Provence-Alpes-Côte d'Azur,93,Femmes,,,,,False
+2021,Provence-Alpes-Côte d'Azur,93,Hommes,,,,,False
+2021,Provence-Alpes-Côte d'Azur,93,Hommes et Femmes,29.06,26.22,31.89,C,False
+2021,Île-de-France,11,Femmes,,,,,False
+2021,Île-de-France,11,Hommes,,,,,False
+2021,Île-de-France,11,Hommes et Femmes,22.44,20.63,24.25,A,False
+
+`;

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Croisement</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <span id="logo">Tabac et alcool</span>
+        <nav>
+            <a href="index.html">Tabac</a>
+            <a href="alcool.html">Alcool</a>
+            <a href="croisement.html" class="actif">Croisement</a>
+            
+        </nav>
+    </header>
+
+    <main>
+               <main>
+        <div class="graphBlock">
+            <h2>Fume-t-on plus là où l'on boit plus ? (2021)</h2>
+            <div class="chartContainer">
+                <canvas id="tabacAlcool"></canvas>
+            </div>
+            <div class="texte">
+                <p id="lectureCorrelation"></p>
+                <p>
+                    <strong>Comment lire.</strong> Chaque point est une région.
+                    Plus il est à droite, plus on y fume tous les jours ; plus
+                    il est en haut, plus on y boit tous les jours. Le coefficient
+                    r mesure à quel point les points suivent une ligne : proche
+                    de 1 ou de -1, la relation est forte ; proche de 0, il n'y a
+                    pas de lien visible.
+                </p>
+                <p>
+                    <strong>Ce qu'on observe.</strong> En 2021, le coefficient de
+                    corrélation est de 0,30 : positif, mais faible. Avec 12
+                    régions, il faudrait au moins 0,58 pour écarter le hasard :
+                    nous ne pouvons donc pas affirmer que les régions où l'on
+                    fume davantage sont celles où l'on boit davantage. Les points
+                    sont très dispersés.
+                </p>
+                
+                <p class="source">
+                    Source : Santé publique France (Baromètre), via Odissé. Taux
+                    standardisés sur l'âge, personnes de 18 à 75 ans, ensemble
+                    hommes et femmes. 12 régions de l'hexagone, sans la Corse.
+                    Une corrélation entre régions ne dit rien sur les
+                    personnes, et d'autres facteurs peuvent jouer.
+                </p>
+            </div>
+
+            <div class="texte texteLarge">
+                <h3>Pourquoi la consommation recule-t-elle ?</h3>
+                <p>
+                    <strong>Le tabac : des mesures concentrées.</strong> Entre
+                    2016 et 2023, la part de fumeurs quotidiens passe d'environ
+                    29 % à 23 % chez les 18-75 ans. Santé publique France y voit
+                    l'impact possible de trois mesures de 2016 : le paquet neutre,
+                    le forfait de remboursement des substituts nicotiniques porté
+                    de 50 à 150 € et le premier Mois sans tabac. On compte alors
+                    1 million de fumeurs quotidiens en moins entre 2016 et 2017.
+                    Viennent ensuite les hausses de prix, de mars 2018 à novembre
+                    2020, qui font passer le paquet d'environ 7 € à près de 10 €.
+                    Selon l'analyse de la chercheuse Catherine Hill, 10 % de
+                    hausse du prix s'accompagnent en moyenne de 5 % de ventes en
+                    moins. Mais le prix n'explique pas tout : le recul de 2017
+                    précède la première hausse, et la baisse s'interrompt entre
+                    2019 et 2021, ce que Santé publique France relie possiblement
+                    à la crise du Covid-19. Pendant le premier confinement, 27 %
+                    des fumeurs ont déclaré fumer davantage, par ennui, manque
+                    d'activité ou stress.
+                </p>
+                <p>
+                    <strong>L'alcool : une baisse de fond.</strong> Sa
+                    consommation diminue depuis les années 1960, bien avant la loi
+                    Évin (1991), puis stagne : 11,7 litres par habitant en 2017.
+                    La loi Évin a été modifiée et affaiblie, et selon l'évaluation
+                    de l'OMS de 2018, la politique des prix est le point faible de
+                    la France (pas de prix minimum). Le Défi de janvier, lancé en
+                    2020, l'a été sans l'appui du gouvernement.
+                </p>
+                <p>
+                    <strong>Et notre question ?</strong> Le tabac a connu une
+                    période de mesures concentrées, l'alcool plutôt un changement
+                    de mode de vie sur le long terme. Cette différence est
+                    cohérente avec le nuage de points : les régions où l'on fume
+                    davantage ne sont pas systématiquement celles où l'on boit
+                    davantage (r = 0,30 en 2021 et -0,04 en 2000, trop faibles
+                    pour être démontrés avec 12 régions). Dans les deux cas, ce
+                    sont des coïncidences avec des mesures et des événements,
+                    pas des preuves de cause.
+                </p>
+                <p class="source">
+                    Sources :
+                    <a href="https://www.santepubliquefrance.fr/presse/31-mai-baisse-historique-du-tabagisme-en-france">Santé publique France, 2018</a>,
+                    <a href="https://form.douane.gouv.fr/sites/default/files/espacePresse/files/2017-09-A.Buzyn-et-G.Darmanin-modalites-hausses-des-prix.pdf">calendrier des hausses de prix</a>,
+                    <a href="https://www.gustaveroussy.fr/sites/default/files/impact_prix_consommation_tabac_2026.pdf">C. Hill, impact des prix sur la consommation de tabac</a>,
+                    <a href="https://www.santepubliquefrance.fr/presse/linterruption-de-la-baisse-de-la-prevalence-du-tabagisme-se-confirme-en-2021">Santé publique France, 2022</a>,
+                    <a href="https://www.lequotidiendumedecin.fr/actus-medicales/sante-publique/confinement-un-quart-des-fumeurs-et-10-des-buveurs-ont-aggrave-leur-consommation-selon-spf">confinement et consommation</a>,
+                    <a href="https://www.larevuedupraticien.fr/article/mesusage-de-lalcool-la-sante-publique-ce-pot-de-terre-0">La Revue du Praticien, alcool</a>,
+                    <a href="https://www.lequotidiendumedecin.fr/specialites/addictologie/coup-denvoi-du-dry-january-sans-lappui-du-gouvernement">Défi de janvier</a>.
+                </p>
+            </div>
+        </div>
+    </main>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="data_alcool.js"></script>
+    <script src="data_tabac_region.js"></script>
+    <script src="outils.js"></script>
+    <script src="correlation.js"></script>
+</body>
+</html>

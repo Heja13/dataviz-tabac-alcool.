@@ -1,0 +1,696 @@
+annee,region_code,region,taux_chomage,nb_trimestres
+2014,0,France (hors Mayotte),10.28,4
+2015,0,France (hors Mayotte),10.35,4
+2016,0,France (hors Mayotte),10.02,4
+2017,0,France (hors Mayotte),9.4,4
+2018,0,France (hors Mayotte),9.02,4
+2019,0,France (hors Mayotte),8.43,4
+2020,0,France (hors Mayotte),8.02,4
+2021,0,France (hors Mayotte),7.85,4
+2022,0,France (hors Mayotte),7.3,4
+2023,0,France (hors Mayotte),7.32,4
+2024,0,France (hors Mayotte),7.38,4
+2025,0,France (hors Mayotte),7.62,4
+2026,0,France (hors Mayotte),8.2,2
+1982,0,France métropolitaine,6.88,4
+1983,0,France métropolitaine,7.18,4
+1984,0,France métropolitaine,8.35,4
+1985,0,France métropolitaine,8.8,4
+1986,0,France métropolitaine,8.8,4
+1987,0,France métropolitaine,8.9,4
+1988,0,France métropolitaine,8.52,4
+1989,0,France métropolitaine,7.9,4
+1990,0,France métropolitaine,7.65,4
+1991,0,France métropolitaine,7.88,4
+1992,0,France métropolitaine,8.7,4
+1993,0,France métropolitaine,9.65,4
+1994,0,France métropolitaine,10.28,4
+1995,0,France métropolitaine,9.62,4
+1996,0,France métropolitaine,10.1,4
+1997,0,France métropolitaine,10.25,4
+1998,0,France métropolitaine,9.8,4
+1999,0,France métropolitaine,9.55,4
+2000,0,France métropolitaine,8.18,4
+2001,0,France métropolitaine,7.35,4
+2002,0,France métropolitaine,7.52,4
+2003,0,France métropolitaine,8.12,4
+2004,0,France métropolitaine,8.52,4
+2005,0,France métropolitaine,8.5,4
+2006,0,France métropolitaine,8.5,4
+2007,0,France métropolitaine,7.68,4
+2008,0,France métropolitaine,7.1,4
+2009,0,France métropolitaine,8.75,4
+2010,0,France métropolitaine,8.93,4
+2011,0,France métropolitaine,8.82,4
+2012,0,France métropolitaine,9.4,4
+2013,0,France métropolitaine,9.95,4
+2014,0,France métropolitaine,9.9,4
+2015,0,France métropolitaine,10.02,4
+2016,0,France métropolitaine,9.72,4
+2017,0,France métropolitaine,9.1,4
+2018,0,France métropolitaine,8.7,4
+2019,0,France métropolitaine,8.18,4
+2020,0,France métropolitaine,7.85,4
+2021,0,France métropolitaine,7.65,4
+2022,0,France métropolitaine,7.05,4
+2023,0,France métropolitaine,7.1,4
+2024,0,France métropolitaine,7.15,4
+2025,0,France métropolitaine,7.42,4
+2026,0,France métropolitaine,8.0,2
+2014,1,Guadeloupe,23.88,4
+2015,1,Guadeloupe,23.58,4
+2016,1,Guadeloupe,23.8,4
+2017,1,Guadeloupe,22.35,4
+2018,1,Guadeloupe,22.62,4
+2019,1,Guadeloupe,20.68,4
+2020,1,Guadeloupe,17.38,4
+2021,1,Guadeloupe,17.25,4
+2022,1,Guadeloupe,18.55,4
+2023,1,Guadeloupe,18.45,4
+2024,1,Guadeloupe,16.6,4
+2025,1,Guadeloupe,16.38,4
+2026,1,Guadeloupe,15.8,2
+2014,2,Martinique,19.45,4
+2015,2,Martinique,17.9,4
+2016,2,Martinique,17.75,4
+2017,2,Martinique,17.85,4
+2018,2,Martinique,17.32,4
+2019,2,Martinique,14.95,4
+2020,2,Martinique,12.45,4
+2021,2,Martinique,12.85,4
+2022,2,Martinique,12.35,4
+2023,2,Martinique,10.68,4
+2024,2,Martinique,12.42,4
+2025,2,Martinique,13.38,4
+2026,2,Martinique,13.15,2
+2014,3,Guyane,22.22,4
+2015,3,Guyane,21.98,4
+2016,3,Guyane,22.9,4
+2017,3,Guyane,21.88,4
+2018,3,Guyane,19.0,4
+2019,3,Guyane,19.38,4
+2020,3,Guyane,16.15,4
+2021,3,Guyane,13.78,4
+2022,3,Guyane,13.1,4
+2023,3,Guyane,13.68,4
+2024,3,Guyane,16.85,4
+2025,3,Guyane,16.82,4
+2026,3,Guyane,19.85,2
+2014,4,Réunion,26.35,4
+2015,4,Réunion,23.45,4
+2016,4,Réunion,22.25,4
+2017,4,Réunion,22.62,4
+2018,4,Réunion,23.98,4
+2019,4,Réunion,21.22,4
+2020,4,Réunion,17.2,4
+2021,4,Réunion,17.9,4
+2022,4,Réunion,17.77,4
+2023,4,Réunion,18.88,4
+2024,4,Réunion,17.35,4
+2025,4,Réunion,16.2,4
+2026,4,Réunion,18.9,2
+1982,11,Île-de-France,5.68,4
+1983,11,Île-de-France,5.75,4
+1984,11,Île-de-France,6.55,4
+1985,11,Île-de-France,7.1,4
+1986,11,Île-de-France,7.32,4
+1987,11,Île-de-France,7.48,4
+1988,11,Île-de-France,7.28,4
+1989,11,Île-de-France,6.68,4
+1990,11,Île-de-France,6.45,4
+1991,11,Île-de-France,6.72,4
+1992,11,Île-de-France,7.48,4
+1993,11,Île-de-France,8.72,4
+1994,11,Île-de-France,9.22,4
+1995,11,Île-de-France,8.8,4
+1996,11,Île-de-France,9.15,4
+1997,11,Île-de-France,9.32,4
+1998,11,Île-de-France,8.98,4
+1999,11,Île-de-France,8.6,4
+2000,11,Île-de-France,7.28,4
+2001,11,Île-de-France,6.5,4
+2002,11,Île-de-France,7.15,4
+2003,11,Île-de-France,8.12,4
+2004,11,Île-de-France,8.57,4
+2005,11,Île-de-France,8.4,4
+2006,11,Île-de-France,8.02,4
+2007,11,Île-de-France,7.22,4
+2008,11,Île-de-France,6.4,4
+2009,11,Île-de-France,7.68,4
+2010,11,Île-de-France,7.95,4
+2011,11,Île-de-France,7.88,4
+2012,11,Île-de-France,8.28,4
+2013,11,Île-de-France,8.72,4
+2014,11,Île-de-France,8.8,4
+2015,11,Île-de-France,8.88,4
+2016,11,Île-de-France,8.65,4
+2017,11,Île-de-France,8.15,4
+2018,11,Île-de-France,7.9,4
+2019,11,Île-de-France,7.4,4
+2020,11,Île-de-France,7.3,4
+2021,11,Île-de-France,7.48,4
+2022,11,Île-de-France,6.9,4
+2023,11,Île-de-France,6.92,4
+2024,11,Île-de-France,7.0,4
+2025,11,Île-de-France,7.42,4
+2026,11,Île-de-France,8.05,2
+1982,24,Centre-Val de Loire,5.82,4
+1983,24,Centre-Val de Loire,6.28,4
+1984,24,Centre-Val de Loire,7.55,4
+1985,24,Centre-Val de Loire,8.02,4
+1986,24,Centre-Val de Loire,8.2,4
+1987,24,Centre-Val de Loire,8.25,4
+1988,24,Centre-Val de Loire,7.65,4
+1989,24,Centre-Val de Loire,6.95,4
+1990,24,Centre-Val de Loire,6.48,4
+1991,24,Centre-Val de Loire,6.68,4
+1992,24,Centre-Val de Loire,7.55,4
+1993,24,Centre-Val de Loire,8.55,4
+1994,24,Centre-Val de Loire,9.15,4
+1995,24,Centre-Val de Loire,8.32,4
+1996,24,Centre-Val de Loire,8.88,4
+1997,24,Centre-Val de Loire,8.98,4
+1998,24,Centre-Val de Loire,8.38,4
+1999,24,Centre-Val de Loire,8.0,4
+2000,24,Centre-Val de Loire,6.62,4
+2001,24,Centre-Val de Loire,5.98,4
+2002,24,Centre-Val de Loire,6.25,4
+2003,24,Centre-Val de Loire,6.98,4
+2004,24,Centre-Val de Loire,7.52,4
+2005,24,Centre-Val de Loire,7.6,4
+2006,24,Centre-Val de Loire,7.5,4
+2007,24,Centre-Val de Loire,6.68,4
+2008,24,Centre-Val de Loire,6.25,4
+2009,24,Centre-Val de Loire,8.02,4
+2010,24,Centre-Val de Loire,8.28,4
+2011,24,Centre-Val de Loire,8.18,4
+2012,24,Centre-Val de Loire,8.88,4
+2013,24,Centre-Val de Loire,9.5,4
+2014,24,Centre-Val de Loire,9.55,4
+2015,24,Centre-Val de Loire,9.68,4
+2016,24,Centre-Val de Loire,9.55,4
+2017,24,Centre-Val de Loire,8.85,4
+2018,24,Centre-Val de Loire,8.5,4
+2019,24,Centre-Val de Loire,8.05,4
+2020,24,Centre-Val de Loire,7.4,4
+2021,24,Centre-Val de Loire,7.1,4
+2022,24,Centre-Val de Loire,6.78,4
+2023,24,Centre-Val de Loire,6.8,4
+2024,24,Centre-Val de Loire,6.85,4
+2025,24,Centre-Val de Loire,7.08,4
+2026,24,Centre-Val de Loire,7.65,2
+1982,27,Bourgogne et Franche-Comté,6.55,4
+1983,27,Bourgogne et Franche-Comté,6.98,4
+1984,27,Bourgogne et Franche-Comté,8.22,4
+1985,27,Bourgogne et Franche-Comté,8.4,4
+1986,27,Bourgogne et Franche-Comté,8.35,4
+1987,27,Bourgogne et Franche-Comté,8.67,4
+1988,27,Bourgogne et Franche-Comté,8.22,4
+1989,27,Bourgogne et Franche-Comté,7.15,4
+1990,27,Bourgogne et Franche-Comté,6.65,4
+1991,27,Bourgogne et Franche-Comté,6.85,4
+1992,27,Bourgogne et Franche-Comté,7.7,4
+1993,27,Bourgogne et Franche-Comté,8.65,4
+1994,27,Bourgogne et Franche-Comté,9.1,4
+1995,27,Bourgogne et Franche-Comté,8.3,4
+1996,27,Bourgogne et Franche-Comté,8.72,4
+1997,27,Bourgogne et Franche-Comté,8.93,4
+1998,27,Bourgogne et Franche-Comté,8.35,4
+1999,27,Bourgogne et Franche-Comté,8.05,4
+2000,27,Bourgogne et Franche-Comté,6.65,4
+2001,27,Bourgogne et Franche-Comté,5.98,4
+2002,27,Bourgogne et Franche-Comté,6.45,4
+2003,27,Bourgogne et Franche-Comté,7.12,4
+2004,27,Bourgogne et Franche-Comté,7.5,4
+2005,27,Bourgogne et Franche-Comté,7.68,4
+2006,27,Bourgogne et Franche-Comté,7.8,4
+2007,27,Bourgogne et Franche-Comté,6.98,4
+2008,27,Bourgogne et Franche-Comté,6.5,4
+2009,27,Bourgogne et Franche-Comté,8.52,4
+2010,27,Bourgogne et Franche-Comté,8.52,4
+2011,27,Bourgogne et Franche-Comté,8.2,4
+2012,27,Bourgogne et Franche-Comté,8.82,4
+2013,27,Bourgogne et Franche-Comté,9.35,4
+2014,27,Bourgogne et Franche-Comté,9.2,4
+2015,27,Bourgogne et Franche-Comté,9.32,4
+2016,27,Bourgogne et Franche-Comté,9.0,4
+2017,27,Bourgogne et Franche-Comté,8.2,4
+2018,27,Bourgogne et Franche-Comté,7.72,4
+2019,27,Bourgogne et Franche-Comté,7.4,4
+2020,27,Bourgogne et Franche-Comté,6.95,4
+2021,27,Bourgogne et Franche-Comté,6.65,4
+2022,27,Bourgogne et Franche-Comté,6.25,4
+2023,27,Bourgogne et Franche-Comté,6.4,4
+2024,27,Bourgogne et Franche-Comté,6.55,4
+2025,27,Bourgogne et Franche-Comté,6.9,4
+2026,27,Bourgogne et Franche-Comté,7.35,2
+1982,28,Normandie,8.17,4
+1983,28,Normandie,8.4,4
+1984,28,Normandie,9.8,4
+1985,28,Normandie,10.1,4
+1986,28,Normandie,10.15,4
+1987,28,Normandie,10.4,4
+1988,28,Normandie,9.6,4
+1989,28,Normandie,8.88,4
+1990,28,Normandie,8.4,4
+1991,28,Normandie,8.48,4
+1992,28,Normandie,9.12,4
+1993,28,Normandie,9.9,4
+1994,28,Normandie,10.62,4
+1995,28,Normandie,10.02,4
+1996,28,Normandie,10.88,4
+1997,28,Normandie,10.98,4
+1998,28,Normandie,10.35,4
+1999,28,Normandie,10.05,4
+2000,28,Normandie,8.57,4
+2001,28,Normandie,7.8,4
+2002,28,Normandie,7.8,4
+2003,28,Normandie,8.3,4
+2004,28,Normandie,8.72,4
+2005,28,Normandie,8.78,4
+2006,28,Normandie,8.75,4
+2007,28,Normandie,7.82,4
+2008,28,Normandie,7.28,4
+2009,28,Normandie,9.25,4
+2010,28,Normandie,9.25,4
+2011,28,Normandie,9.2,4
+2012,28,Normandie,9.8,4
+2013,28,Normandie,10.3,4
+2014,28,Normandie,10.18,4
+2015,28,Normandie,10.22,4
+2016,28,Normandie,10.05,4
+2017,28,Normandie,9.35,4
+2018,28,Normandie,8.9,4
+2019,28,Normandie,8.22,4
+2020,28,Normandie,7.9,4
+2021,28,Normandie,7.5,4
+2022,28,Normandie,6.82,4
+2023,28,Normandie,6.82,4
+2024,28,Normandie,7.02,4
+2025,28,Normandie,7.3,4
+2026,28,Normandie,7.8,2
+1982,32,Hauts-de-France,8.48,4
+1983,32,Hauts-de-France,8.75,4
+1984,32,Hauts-de-France,10.35,4
+1985,32,Hauts-de-France,10.62,4
+1986,32,Hauts-de-France,10.65,4
+1987,32,Hauts-de-France,10.95,4
+1988,32,Hauts-de-France,10.68,4
+1989,32,Hauts-de-France,10.0,4
+1990,32,Hauts-de-France,10.05,4
+1991,32,Hauts-de-France,9.85,4
+1992,32,Hauts-de-France,10.58,4
+1993,32,Hauts-de-France,11.8,4
+1994,32,Hauts-de-France,12.75,4
+1995,32,Hauts-de-France,11.98,4
+1996,32,Hauts-de-France,12.65,4
+1997,32,Hauts-de-France,12.98,4
+1998,32,Hauts-de-France,12.45,4
+1999,32,Hauts-de-France,12.22,4
+2000,32,Hauts-de-France,10.6,4
+2001,32,Hauts-de-France,9.72,4
+2002,32,Hauts-de-France,9.48,4
+2003,32,Hauts-de-France,9.88,4
+2004,32,Hauts-de-France,10.42,4
+2005,32,Hauts-de-France,10.65,4
+2006,32,Hauts-de-France,10.88,4
+2007,32,Hauts-de-France,10.0,4
+2008,32,Hauts-de-France,9.48,4
+2009,32,Hauts-de-France,11.58,4
+2010,32,Hauts-de-France,11.75,4
+2011,32,Hauts-de-France,11.62,4
+2012,32,Hauts-de-France,12.32,4
+2013,32,Hauts-de-France,12.88,4
+2014,32,Hauts-de-France,12.58,4
+2015,32,Hauts-de-France,12.6,4
+2016,32,Hauts-de-France,12.2,4
+2017,32,Hauts-de-France,11.65,4
+2018,32,Hauts-de-France,11.22,4
+2019,32,Hauts-de-France,10.4,4
+2020,32,Hauts-de-France,9.62,4
+2021,32,Hauts-de-France,9.32,4
+2022,32,Hauts-de-France,8.78,4
+2023,32,Hauts-de-France,9.0,4
+2024,32,Hauts-de-France,8.98,4
+2025,32,Hauts-de-France,9.25,4
+2026,32,Hauts-de-France,9.9,2
+1982,44,Grand Est,6.48,4
+1983,44,Grand Est,6.85,4
+1984,44,Grand Est,8.07,4
+1985,44,Grand Est,8.65,4
+1986,44,Grand Est,8.28,4
+1987,44,Grand Est,8.22,4
+1988,44,Grand Est,7.8,4
+1989,44,Grand Est,7.0,4
+1990,44,Grand Est,6.55,4
+1991,44,Grand Est,6.48,4
+1992,44,Grand Est,7.12,4
+1993,44,Grand Est,8.07,4
+1994,44,Grand Est,8.65,4
+1995,44,Grand Est,8.02,4
+1996,44,Grand Est,8.45,4
+1997,44,Grand Est,8.65,4
+1998,44,Grand Est,8.12,4
+1999,44,Grand Est,7.82,4
+2000,44,Grand Est,6.65,4
+2001,44,Grand Est,6.22,4
+2002,44,Grand Est,6.58,4
+2003,44,Grand Est,7.45,4
+2004,44,Grand Est,8.0,4
+2005,44,Grand Est,8.3,4
+2006,44,Grand Est,8.52,4
+2007,44,Grand Est,7.65,4
+2008,44,Grand Est,7.08,4
+2009,44,Grand Est,9.05,4
+2010,44,Grand Est,9.05,4
+2011,44,Grand Est,8.88,4
+2012,44,Grand Est,9.57,4
+2013,44,Grand Est,10.22,4
+2014,44,Grand Est,10.2,4
+2015,44,Grand Est,10.25,4
+2016,44,Grand Est,9.93,4
+2017,44,Grand Est,9.22,4
+2018,44,Grand Est,8.6,4
+2019,44,Grand Est,8.12,4
+2020,44,Grand Est,7.78,4
+2021,44,Grand Est,7.65,4
+2022,44,Grand Est,7.08,4
+2023,44,Grand Est,7.18,4
+2024,44,Grand Est,7.25,4
+2025,44,Grand Est,7.3,4
+2026,44,Grand Est,7.8,2
+1982,52,Pays de la Loire,7.5,4
+1983,52,Pays de la Loire,7.93,4
+1984,52,Pays de la Loire,9.32,4
+1985,52,Pays de la Loire,9.98,4
+1986,52,Pays de la Loire,10.0,4
+1987,52,Pays de la Loire,9.95,4
+1988,52,Pays de la Loire,9.4,4
+1989,52,Pays de la Loire,8.55,4
+1990,52,Pays de la Loire,7.92,4
+1991,52,Pays de la Loire,8.0,4
+1992,52,Pays de la Loire,8.8,4
+1993,52,Pays de la Loire,9.5,4
+1994,52,Pays de la Loire,9.95,4
+1995,52,Pays de la Loire,9.1,4
+1996,52,Pays de la Loire,9.45,4
+1997,52,Pays de la Loire,9.4,4
+1998,52,Pays de la Loire,8.78,4
+1999,52,Pays de la Loire,8.25,4
+2000,52,Pays de la Loire,6.85,4
+2001,52,Pays de la Loire,6.35,4
+2002,52,Pays de la Loire,6.43,4
+2003,52,Pays de la Loire,6.9,4
+2004,52,Pays de la Loire,7.22,4
+2005,52,Pays de la Loire,7.22,4
+2006,52,Pays de la Loire,7.32,4
+2007,52,Pays de la Loire,6.5,4
+2008,52,Pays de la Loire,5.98,4
+2009,52,Pays de la Loire,7.9,4
+2010,52,Pays de la Loire,7.85,4
+2011,52,Pays de la Loire,7.52,4
+2012,52,Pays de la Loire,8.12,4
+2013,52,Pays de la Loire,8.7,4
+2014,52,Pays de la Loire,8.78,4
+2015,52,Pays de la Loire,8.98,4
+2016,52,Pays de la Loire,8.5,4
+2017,52,Pays de la Loire,7.78,4
+2018,52,Pays de la Loire,7.38,4
+2019,52,Pays de la Loire,7.05,4
+2020,52,Pays de la Loire,7.02,4
+2021,52,Pays de la Loire,6.55,4
+2022,52,Pays de la Loire,5.9,4
+2023,52,Pays de la Loire,5.75,4
+2024,52,Pays de la Loire,5.88,4
+2025,52,Pays de la Loire,6.22,4
+2026,52,Pays de la Loire,6.7,2
+1982,53,Bretagne,7.18,4
+1983,53,Bretagne,7.65,4
+1984,53,Bretagne,9.02,4
+1985,53,Bretagne,9.52,4
+1986,53,Bretagne,9.43,4
+1987,53,Bretagne,9.3,4
+1988,53,Bretagne,8.68,4
+1989,53,Bretagne,8.18,4
+1990,53,Bretagne,7.72,4
+1991,53,Bretagne,7.65,4
+1992,53,Bretagne,8.02,4
+1993,53,Bretagne,8.43,4
+1994,53,Bretagne,8.82,4
+1995,53,Bretagne,8.32,4
+1996,53,Bretagne,8.7,4
+1997,53,Bretagne,8.7,4
+1998,53,Bretagne,8.38,4
+1999,53,Bretagne,8.02,4
+2000,53,Bretagne,6.7,4
+2001,53,Bretagne,6.12,4
+2002,53,Bretagne,6.38,4
+2003,53,Bretagne,6.85,4
+2004,53,Bretagne,7.02,4
+2005,53,Bretagne,7.02,4
+2006,53,Bretagne,7.15,4
+2007,53,Bretagne,6.52,4
+2008,53,Bretagne,5.95,4
+2009,53,Bretagne,7.5,4
+2010,53,Bretagne,7.58,4
+2011,53,Bretagne,7.48,4
+2012,53,Bretagne,8.18,4
+2013,53,Bretagne,8.82,4
+2014,53,Bretagne,8.8,4
+2015,53,Bretagne,8.9,4
+2016,53,Bretagne,8.65,4
+2017,53,Bretagne,7.92,4
+2018,53,Bretagne,7.52,4
+2019,53,Bretagne,7.02,4
+2020,53,Bretagne,6.8,4
+2021,53,Bretagne,6.38,4
+2022,53,Bretagne,5.85,4
+2023,53,Bretagne,5.92,4
+2024,53,Bretagne,5.95,4
+2025,53,Bretagne,6.22,4
+2026,53,Bretagne,6.7,2
+1982,75,Nouvelle Aquitaine,7.32,4
+1983,75,Nouvelle Aquitaine,7.6,4
+1984,75,Nouvelle Aquitaine,8.88,4
+1985,75,Nouvelle Aquitaine,9.33,4
+1986,75,Nouvelle Aquitaine,9.32,4
+1987,75,Nouvelle Aquitaine,9.38,4
+1988,75,Nouvelle Aquitaine,9.0,4
+1989,75,Nouvelle Aquitaine,8.48,4
+1990,75,Nouvelle Aquitaine,8.05,4
+1991,75,Nouvelle Aquitaine,8.15,4
+1992,75,Nouvelle Aquitaine,8.98,4
+1993,75,Nouvelle Aquitaine,9.52,4
+1994,75,Nouvelle Aquitaine,10.0,4
+1995,75,Nouvelle Aquitaine,9.43,4
+1996,75,Nouvelle Aquitaine,9.85,4
+1997,75,Nouvelle Aquitaine,9.93,4
+1998,75,Nouvelle Aquitaine,9.62,4
+1999,75,Nouvelle Aquitaine,9.32,4
+2000,75,Nouvelle Aquitaine,8.05,4
+2001,75,Nouvelle Aquitaine,7.35,4
+2002,75,Nouvelle Aquitaine,7.22,4
+2003,75,Nouvelle Aquitaine,7.78,4
+2004,75,Nouvelle Aquitaine,8.1,4
+2005,75,Nouvelle Aquitaine,8.12,4
+2006,75,Nouvelle Aquitaine,8.07,4
+2007,75,Nouvelle Aquitaine,7.28,4
+2008,75,Nouvelle Aquitaine,6.8,4
+2009,75,Nouvelle Aquitaine,8.32,4
+2010,75,Nouvelle Aquitaine,8.5,4
+2011,75,Nouvelle Aquitaine,8.52,4
+2012,75,Nouvelle Aquitaine,9.15,4
+2013,75,Nouvelle Aquitaine,9.55,4
+2014,75,Nouvelle Aquitaine,9.52,4
+2015,75,Nouvelle Aquitaine,9.72,4
+2016,75,Nouvelle Aquitaine,9.45,4
+2017,75,Nouvelle Aquitaine,8.78,4
+2018,75,Nouvelle Aquitaine,8.32,4
+2019,75,Nouvelle Aquitaine,7.75,4
+2020,75,Nouvelle Aquitaine,7.38,4
+2021,75,Nouvelle Aquitaine,7.08,4
+2022,75,Nouvelle Aquitaine,6.48,4
+2023,75,Nouvelle Aquitaine,6.42,4
+2024,75,Nouvelle Aquitaine,6.58,4
+2025,75,Nouvelle Aquitaine,6.92,4
+2026,75,Nouvelle Aquitaine,7.4,2
+1982,76,Occitanie,7.7,4
+1983,76,Occitanie,8.1,4
+1984,76,Occitanie,9.22,4
+1985,76,Occitanie,9.62,4
+1986,76,Occitanie,9.45,4
+1987,76,Occitanie,9.57,4
+1988,76,Occitanie,9.43,4
+1989,76,Occitanie,9.07,4
+1990,76,Occitanie,9.12,4
+1991,76,Occitanie,9.4,4
+1992,76,Occitanie,10.28,4
+1993,76,Occitanie,10.92,4
+1994,76,Occitanie,11.52,4
+1995,76,Occitanie,11.05,4
+1996,76,Occitanie,11.7,4
+1997,76,Occitanie,12.0,4
+1998,76,Occitanie,11.92,4
+1999,76,Occitanie,11.82,4
+2000,76,Occitanie,10.6,4
+2001,76,Occitanie,9.65,4
+2002,76,Occitanie,9.45,4
+2003,76,Occitanie,9.72,4
+2004,76,Occitanie,9.9,4
+2005,76,Occitanie,9.9,4
+2006,76,Occitanie,9.95,4
+2007,76,Occitanie,9.1,4
+2008,76,Occitanie,8.52,4
+2009,76,Occitanie,10.12,4
+2010,76,Occitanie,10.3,4
+2011,76,Occitanie,10.45,4
+2012,76,Occitanie,11.2,4
+2013,76,Occitanie,11.9,4
+2014,76,Occitanie,11.95,4
+2015,76,Occitanie,12.1,4
+2016,76,Occitanie,11.7,4
+2017,76,Occitanie,10.92,4
+2018,76,Occitanie,10.48,4
+2019,76,Occitanie,9.9,4
+2020,76,Occitanie,9.38,4
+2021,76,Occitanie,9.28,4
+2022,76,Occitanie,8.7,4
+2023,76,Occitanie,8.72,4
+2024,76,Occitanie,8.78,4
+2025,76,Occitanie,9.15,4
+2026,76,Occitanie,9.6,2
+1982,84,Auvergne et Rhône-Alpes,5.9,4
+1983,84,Auvergne et Rhône-Alpes,6.12,4
+1984,84,Auvergne et Rhône-Alpes,7.25,4
+1985,84,Auvergne et Rhône-Alpes,7.6,4
+1986,84,Auvergne et Rhône-Alpes,7.5,4
+1987,84,Auvergne et Rhône-Alpes,7.62,4
+1988,84,Auvergne et Rhône-Alpes,7.3,4
+1989,84,Auvergne et Rhône-Alpes,6.78,4
+1990,84,Auvergne et Rhône-Alpes,6.8,4
+1991,84,Auvergne et Rhône-Alpes,7.3,4
+1992,84,Auvergne et Rhône-Alpes,8.48,4
+1993,84,Auvergne et Rhône-Alpes,9.62,4
+1994,84,Auvergne et Rhône-Alpes,10.1,4
+1995,84,Auvergne et Rhône-Alpes,9.22,4
+1996,84,Auvergne et Rhône-Alpes,9.65,4
+1997,84,Auvergne et Rhône-Alpes,9.48,4
+1998,84,Auvergne et Rhône-Alpes,8.85,4
+1999,84,Auvergne et Rhône-Alpes,8.65,4
+2000,84,Auvergne et Rhône-Alpes,7.12,4
+2001,84,Auvergne et Rhône-Alpes,6.32,4
+2002,84,Auvergne et Rhône-Alpes,6.52,4
+2003,84,Auvergne et Rhône-Alpes,7.2,4
+2004,84,Auvergne et Rhône-Alpes,7.48,4
+2005,84,Auvergne et Rhône-Alpes,7.42,4
+2006,84,Auvergne et Rhône-Alpes,7.35,4
+2007,84,Auvergne et Rhône-Alpes,6.72,4
+2008,84,Auvergne et Rhône-Alpes,6.25,4
+2009,84,Auvergne et Rhône-Alpes,8.12,4
+2010,84,Auvergne et Rhône-Alpes,8.12,4
+2011,84,Auvergne et Rhône-Alpes,7.92,4
+2012,84,Auvergne et Rhône-Alpes,8.45,4
+2013,84,Auvergne et Rhône-Alpes,8.82,4
+2014,84,Auvergne et Rhône-Alpes,8.8,4
+2015,84,Auvergne et Rhône-Alpes,8.98,4
+2016,84,Auvergne et Rhône-Alpes,8.78,4
+2017,84,Auvergne et Rhône-Alpes,8.12,4
+2018,84,Auvergne et Rhône-Alpes,7.72,4
+2019,84,Auvergne et Rhône-Alpes,7.28,4
+2020,84,Auvergne et Rhône-Alpes,7.1,4
+2021,84,Auvergne et Rhône-Alpes,6.93,4
+2022,84,Auvergne et Rhône-Alpes,6.25,4
+2023,84,Auvergne et Rhône-Alpes,6.28,4
+2024,84,Auvergne et Rhône-Alpes,6.35,4
+2025,84,Auvergne et Rhône-Alpes,6.6,4
+2026,84,Auvergne et Rhône-Alpes,7.1,2
+1982,93,Provence-Alpes-Côte d'Azur,8.38,4
+1983,93,Provence-Alpes-Côte d'Azur,8.88,4
+1984,93,Provence-Alpes-Côte d'Azur,10.02,4
+1985,93,Provence-Alpes-Côte d'Azur,10.48,4
+1986,93,Provence-Alpes-Côte d'Azur,10.32,4
+1987,93,Provence-Alpes-Côte d'Azur,10.28,4
+1988,93,Provence-Alpes-Côte d'Azur,10.02,4
+1989,93,Provence-Alpes-Côte d'Azur,9.5,4
+1990,93,Provence-Alpes-Côte d'Azur,9.68,4
+1991,93,Provence-Alpes-Côte d'Azur,10.1,4
+1992,93,Provence-Alpes-Côte d'Azur,11.35,4
+1993,93,Provence-Alpes-Côte d'Azur,12.55,4
+1994,93,Provence-Alpes-Côte d'Azur,13.25,4
+1995,93,Provence-Alpes-Côte d'Azur,12.72,4
+1996,93,Provence-Alpes-Côte d'Azur,13.3,4
+1997,93,Provence-Alpes-Côte d'Azur,13.7,4
+1998,93,Provence-Alpes-Côte d'Azur,13.35,4
+1999,93,Provence-Alpes-Côte d'Azur,13.15,4
+2000,93,Provence-Alpes-Côte d'Azur,11.52,4
+2001,93,Provence-Alpes-Côte d'Azur,10.42,4
+2002,93,Provence-Alpes-Côte d'Azur,9.75,4
+2003,93,Provence-Alpes-Côte d'Azur,9.93,4
+2004,93,Provence-Alpes-Côte d'Azur,9.98,4
+2005,93,Provence-Alpes-Côte d'Azur,9.98,4
+2006,93,Provence-Alpes-Côte d'Azur,10.02,4
+2007,93,Provence-Alpes-Côte d'Azur,9.28,4
+2008,93,Provence-Alpes-Côte d'Azur,8.38,4
+2009,93,Provence-Alpes-Côte d'Azur,9.93,4
+2010,93,Provence-Alpes-Côte d'Azur,10.15,4
+2011,93,Provence-Alpes-Côte d'Azur,10.35,4
+2012,93,Provence-Alpes-Côte d'Azur,10.85,4
+2013,93,Provence-Alpes-Côte d'Azur,11.35,4
+2014,93,Provence-Alpes-Côte d'Azur,11.35,4
+2015,93,Provence-Alpes-Côte d'Azur,11.5,4
+2016,93,Provence-Alpes-Côte d'Azur,11.25,4
+2017,93,Provence-Alpes-Côte d'Azur,10.7,4
+2018,93,Provence-Alpes-Côte d'Azur,10.3,4
+2019,93,Provence-Alpes-Côte d'Azur,9.6,4
+2020,93,Provence-Alpes-Côte d'Azur,9.07,4
+2021,93,Provence-Alpes-Côte d'Azur,8.88,4
+2022,93,Provence-Alpes-Côte d'Azur,8.15,4
+2023,93,Provence-Alpes-Côte d'Azur,8.02,4
+2024,93,Provence-Alpes-Côte d'Azur,7.88,4
+2025,93,Provence-Alpes-Côte d'Azur,8.12,4
+2026,93,Provence-Alpes-Côte d'Azur,8.65,2
+1982,94,Corse,7.8,4
+1983,94,Corse,9.15,4
+1984,94,Corse,10.05,4
+1985,94,Corse,10.05,4
+1986,94,Corse,10.2,4
+1987,94,Corse,10.18,4
+1988,94,Corse,9.48,4
+1989,94,Corse,9.0,4
+1990,94,Corse,9.55,4
+1991,94,Corse,10.3,4
+1992,94,Corse,10.18,4
+1993,94,Corse,11.12,4
+1994,94,Corse,11.58,4
+1995,94,Corse,11.35,4
+1996,94,Corse,12.72,4
+1997,94,Corse,13.12,4
+1998,94,Corse,12.42,4
+1999,94,Corse,12.08,4
+2000,94,Corse,10.8,4
+2001,94,Corse,9.9,4
+2002,94,Corse,8.82,4
+2003,94,Corse,8.62,4
+2004,94,Corse,9.0,4
+2005,94,Corse,8.85,4
+2006,94,Corse,8.82,4
+2007,94,Corse,8.1,4
+2008,94,Corse,7.3,4
+2009,94,Corse,8.05,4
+2010,94,Corse,8.45,4
+2011,94,Corse,8.68,4
+2012,94,Corse,9.02,4
+2013,94,Corse,9.67,4
+2014,94,Corse,10.07,4
+2015,94,Corse,10.42,4
+2016,94,Corse,10.0,4
+2017,94,Corse,9.43,4
+2018,94,Corse,8.8,4
+2019,94,Corse,8.07,4
+2020,94,Corse,7.85,4
+2021,94,Corse,6.75,4
+2022,94,Corse,6.12,4
+2023,94,Corse,6.4,4
+2024,94,Corse,6.42,4
+2025,94,Corse,6.52,4
+2026,94,Corse,6.85,2

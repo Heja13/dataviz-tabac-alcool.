@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #E7E7E7;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+nav a.actif {
+    border-bottom: 3px solid black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.graphBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+h2 {
+    width: 100%;
+    margin: 32px 0 0 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.chartContainer {
+    position: relative;
+    width: 58%;
+    min-width: 320px;
+    height: 380px;
+}
+.barres {
+    position: relative;
+    height: 480px;
+}
+.selecteur {
+    width: 100%;
+    text-align: center;
+}
+
+.selecteur select {
+    font-family: Montserrat;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+}
+
+.carte {
+    width: 48%;
+    min-width: 320px;
+}
+
+.carte h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.carte svg {
+    width: 100%;
+    height: auto;
+}
+
+.region {
+    stroke: white;
+    stroke-width: 1.5;
+}
+
+.region:hover {
+    stroke: #222222;
+    stroke-width: 2.5;
+}
+
+.legende {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 8px 0 16px 0;
+    font-size: 13px;
+}
+
+.legende {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 16px;
+    width: 100%;
+    font-size: 13px;
+}
+
+.classe i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.outremer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tuile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+#infobulle {
+    display: none;
+    position: absolute;
+    padding: 6px 10px;
+    background-color: #222222;
+    color: white;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+
+.chartHaut {
+    height: 650px;
+}
+.texte {
+    width: 37%;
+    min-width: 260px;
+}
+.texteLarge {
+    width: 100%;
+}
+.texteLarge h3 {
+    margin: 24px 0 8px 0;
+    font-size: 22px;
+}
+p {
+    margin: 0 0 16px 0;
+    font-family: 'Crimson Text';
+    font-size: 18px;
+    color: #686868;
+}
+
+.source {
+    font-size: 14px;
+}
+
+.phases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.phase {
+    width: 48%;
+    min-width: 300px;
+    padding: 16px;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+}
+
+.phase h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+}

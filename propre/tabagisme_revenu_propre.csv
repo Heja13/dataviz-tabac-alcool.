@@ -1,0 +1,37 @@
+annee,tercile,revenu,taux,ic_inf,ic_sup,revenu_libelle_original
+2000,1,Faible,31.44,29.57,33.36,1er tercile (faible)
+2000,2,Intermédiaire,31.01,29.34,32.72,2e tercile
+2000,3,Élevé,28.28,26.69,29.92,3e tercile (élevé)
+2005,1,Faible,32.48,31.13,33.85,2e tercile (faible)
+2005,2,Intermédiaire,26.82,25.69,27.97,3e tercile
+2005,3,Élevé,24.65,23.55,25.78,4e tercile (élevé)
+2010,1,Faible,36.42,35.04,37.82,3e tercile (faible)
+2010,2,Intermédiaire,29.68,28.6,30.76,4e tercile
+2010,3,Élevé,23.38,22.3,24.5,5e tercile (élevé)
+2014,1,Faible,37.02,34.99,39.09,4e tercile (faible)
+2014,2,Intermédiaire,27.98,26.45,29.54,5e tercile
+2014,3,Élevé,21.81,20.51,23.14,6e tercile (élevé)
+2016,1,Faible,38.75,36.76,40.77,5e tercile (faible)
+2016,2,Intermédiaire,28.51,26.84,30.21,6e tercile
+2016,3,Élevé,21.05,19.78,22.36,7e tercile (élevé)
+2017,1,Faible,33.96,32.6,35.35,6e tercile (faible)
+2017,2,Intermédiaire,26.38,25.2,27.58,7e tercile
+2017,3,Élevé,19.46,18.42,20.53,8e tercile (élevé)
+2018,1,Faible,32.57,30.09,35.13,7e tercile (faible)
+2018,2,Intermédiaire,24.75,22.86,26.72,8e tercile
+2018,3,Élevé,21.14,19.22,23.15,9e tercile (élevé)
+2019,1,Faible,29.78,27.42,32.23,8e tercile (faible)
+2019,2,Intermédiaire,23.67,21.79,25.64,9e tercile
+2019,3,Élevé,18.21,16.53,19.99,10e tercile (élevé)
+2020,1,Faible,33.29,31.18,35.45,9e tercile (faible)
+2020,2,Intermédiaire,25.24,23.5,27.04,10e tercile
+2020,3,Élevé,18.0,16.61,19.46,11e tercile (élevé)
+2021,1,Faible,32.31,30.81,33.84,10e tercile (faible)
+2021,2,Intermédiaire,25.72,24.36,27.11,11e tercile
+2021,3,Élevé,16.98,15.93,18.08,12e tercile (élevé)
+2022,1,Faible,33.55,29.16,38.17,11e tercile (faible)
+2022,2,Intermédiaire,20.9,17.84,24.22,12e tercile
+2022,3,Élevé,21.4,18.07,25.03,13e tercile (élevé)
+2023,1,Faible,28.91,27.07,30.8,12e tercile (faible)
+2023,2,Intermédiaire,23.9,22.33,25.53,13e tercile
+2023,3,Élevé,17.32,16.1,18.59,14e tercile (élevé)

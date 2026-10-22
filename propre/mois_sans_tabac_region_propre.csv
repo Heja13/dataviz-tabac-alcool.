@@ -1,0 +1,181 @@
+annee,region_code,region,inscriptions,proportion_inscrits
+2016,1,Guadeloupe,367,1.119525
+2016,2,Martinique,418,1.057399
+2016,3,Guyane,119,0.541507
+2016,4,Réunion,1675,1.107349
+2016,6,Mayotte,73,
+2016,11,Île-de-France,28470,1.49958
+2016,24,Centre-Val de Loire,7019,1.468981
+2016,27,Bourgogne et Franche-Comté,7190,1.329101
+2016,28,Normandie,10528,1.818795
+2016,32,Hauts-de-France,17517,1.369258
+2016,44,Grand Est,13354,1.12777
+2016,52,Pays de la Loire,12317,2.054942
+2016,53,Bretagne,11917,1.966295
+2016,75,Nouvelle Aquitaine,17782,1.554367
+2016,76,Occitanie,17120,1.424436
+2016,84,Auvergne et Rhône-Alpes,19746,1.353076
+2016,93,Provence-Alpes-Côte d'Azur,13447,1.218745
+2016,94,Corse,934,
+2017,1,Guadeloupe,164,0.500278
+2017,2,Martinique,309,0.781666
+2017,3,Guyane,72,0.327635
+2017,4,Réunion,963,0.636643
+2017,6,Mayotte,37,
+2017,11,Île-de-France,25508,1.343564
+2017,24,Centre-Val de Loire,6124,1.281669
+2017,27,Bourgogne et Franche-Comté,6278,1.160514
+2017,28,Normandie,8932,1.543074
+2017,32,Hauts-de-France,15584,1.218161
+2017,44,Grand Est,12273,1.036478
+2017,52,Pays de la Loire,10539,1.758304
+2017,53,Bretagne,9875,1.629367
+2017,75,Nouvelle Aquitaine,15394,1.345626
+2017,76,Occitanie,15479,1.2879
+2017,84,Auvergne et Rhône-Alpes,18567,1.272286
+2017,93,Provence-Alpes-Côte d'Azur,11421,1.035122
+2017,94,Corse,704,
+2018,1,Guadeloupe,380,1.140878
+2018,2,Martinique,547,1.358429
+2018,3,Guyane,138,0.614315
+2018,4,Réunion,1638,1.065038
+2018,6,Mayotte,104,
+2018,11,Île-de-France,36437,1.883139
+2018,24,Centre-Val de Loire,9558,1.962687
+2018,27,Bourgogne et Franche-Comté,9822,1.776078
+2018,28,Normandie,13944,2.358491
+2018,32,Hauts-de-France,25932,1.98295
+2018,44,Grand Est,18539,1.530605
+2018,52,Pays de la Loire,16053,2.614183
+2018,53,Bretagne,14732,2.379618
+2018,75,Nouvelle Aquitaine,23591,2.01503
+2018,76,Occitanie,23014,1.871154
+2018,84,Auvergne et Rhône-Alpes,28895,1.940944
+2018,93,Provence-Alpes-Côte d'Azur,17937,1.593332
+2018,94,Corse,1139,
+2019,1,Guadeloupe,457,1.381866
+2019,2,Martinique,580,1.457086
+2019,3,Guyane,148,0.673471
+2019,4,Réunion,1985,1.29378
+2019,6,Mayotte,71,
+2019,11,Île-de-France,30305,1.580063
+2019,24,Centre-Val de Loire,8138,1.680988
+2019,27,Bourgogne et Franche-Comté,8373,1.527449
+2019,28,Normandie,11866,2.016085
+2019,32,Hauts-de-France,21199,1.636278
+2019,44,Grand Est,15428,1.283415
+2019,52,Pays de la Loire,12790,2.100656
+2019,53,Bretagne,12087,1.966955
+2019,75,Nouvelle Aquitaine,19185,1.65358
+2019,76,Occitanie,20139,1.654493
+2019,84,Auvergne et Rhône-Alpes,24422,1.652252
+2019,93,Provence-Alpes-Côte d'Azur,15342,1.374815
+2019,94,Corse,1113,
+2020,1,Guadeloupe,325,1.025755
+2020,2,Martinique,274,0.914194
+2020,3,Guyane,88,0.505436
+2020,4,Réunion,1132,0.915555
+2020,6,Mayotte,43,
+2020,11,Île-de-France,21170,1.07804
+2020,24,Centre-Val de Loire,4477,1.152087
+2020,27,Bourgogne et Franche-Comté,5064,0.961391
+2020,28,Normandie,6738,1.138453
+2020,32,Hauts-de-France,12463,1.117154
+2020,44,Grand Est,9775,0.914626
+2020,52,Pays de la Loire,7556,1.253795
+2020,53,Bretagne,6791,1.112687
+2020,75,Nouvelle Aquitaine,11832,1.086622
+2020,76,Occitanie,12489,1.028086
+2020,84,Auvergne et Rhône-Alpes,15582,1.100374
+2020,93,Provence-Alpes-Côte d'Azur,10023,0.961483
+2020,94,Corse,602,
+2021,1,Guadeloupe,226,0.71136
+2021,2,Martinique,158,0.524317
+2021,3,Guyane,61,0.358507
+2021,4,Réunion,795,0.637966
+2021,6,Mayotte,39,
+2021,11,Île-de-France,19525,0.991608
+2021,24,Centre-Val de Loire,4093,1.044071
+2021,27,Bourgogne et Franche-Comté,4217,0.797705
+2021,28,Normandie,5951,1.004296
+2021,32,Hauts-de-France,11326,1.01278
+2021,44,Grand Est,8499,0.791713
+2021,52,Pays de la Loire,7385,1.218963
+2021,53,Bretagne,6346,1.035562
+2021,75,Nouvelle Aquitaine,10380,0.950214
+2021,76,Occitanie,10868,0.890272
+2021,84,Auvergne et Rhône-Alpes,13416,0.943432
+2021,93,Provence-Alpes-Côte d'Azur,8756,0.834949
+2021,94,Corse,550,
+2022,1,Guadeloupe,225,0.714535
+2022,2,Martinique,221,0.73606
+2022,3,Guyane,75,0.440788
+2022,4,Réunion,708,0.569787
+2022,6,Mayotte,45,
+2022,11,Île-de-France,28192,1.435661
+2022,24,Centre-Val de Loire,5715,1.471203
+2022,27,Bourgogne et Franche-Comté,6023,1.145609
+2022,28,Normandie,8714,1.475039
+2022,32,Hauts-de-France,17118,1.537184
+2022,44,Grand Est,11840,1.110382
+2022,52,Pays de la Loire,9427,1.564606
+2022,53,Bretagne,8460,1.390238
+2022,75,Nouvelle Aquitaine,15440,1.422166
+2022,76,Occitanie,16133,1.331046
+2022,84,Auvergne et Rhône-Alpes,19406,1.370912
+2022,93,Provence-Alpes-Côte d'Azur,13327,1.279558
+2022,94,Corse,855,
+2023,1,Guadeloupe,277,1.048369
+2023,2,Martinique,336,1.386653
+2023,3,Guyane,92,0.517174
+2023,4,Réunion,1049,1.051007
+2023,6,Mayotte,67,
+2023,11,Île-de-France,26118,2.009372
+2023,24,Centre-Val de Loire,5999,1.990575
+2023,27,Bourgogne et Franche-Comté,6085,1.58986
+2023,28,Normandie,8308,2.105566
+2023,32,Hauts-de-France,16276,2.033595
+2023,44,Grand Est,11663,1.4607
+2023,52,Pays de la Loire,9327,1.925652
+2023,53,Bretagne,8380,2.104014
+2023,75,Nouvelle Aquitaine,14976,1.914512
+2023,76,Occitanie,15875,1.735346
+2023,84,Auvergne et Rhône-Alpes,18941,2.023994
+2023,93,Provence-Alpes-Côte d'Azur,12903,1.665145
+2023,94,Corse,805,1.597887
+2024,1,Guadeloupe,271,1.02566
+2024,2,Martinique,204,0.841897
+2024,3,Guyane,78,0.438473
+2024,4,Réunion,960,0.961837
+2024,6,Mayotte,33,
+2024,11,Île-de-France,24126,1.856119
+2024,24,Centre-Val de Loire,4758,1.578789
+2024,27,Bourgogne et Franche-Comté,4932,1.28861
+2024,28,Normandie,7014,1.777616
+2024,32,Hauts-de-France,13319,1.664134
+2024,44,Grand Est,9861,1.235014
+2024,52,Pays de la Loire,7594,1.567857
+2024,53,Bretagne,6891,1.730162
+2024,75,Nouvelle Aquitaine,12587,1.609105
+2024,76,Occitanie,13492,1.474853
+2024,84,Auvergne et Rhône-Alpes,15450,1.650953
+2024,93,Provence-Alpes-Côte d'Azur,11529,1.487829
+2024,94,Corse,664,1.318008
+2025,1,Guadeloupe,228,0.862917
+2025,2,Martinique,271,1.118402
+2025,3,Guyane,97,0.545281
+2025,4,Réunion,933,0.934785
+2025,6,Mayotte,17,
+2025,11,Île-de-France,18810,1.447136
+2025,24,Centre-Val de Loire,4284,1.421508
+2025,27,Bourgogne et Franche-Comté,4604,1.202911
+2025,28,Normandie,6602,1.6732
+2025,32,Hauts-de-France,12053,1.505954
+2025,44,Grand Est,8932,1.118664
+2025,52,Pays de la Loire,7071,1.459878
+2025,53,Bretagne,6289,1.579014
+2025,75,Nouvelle Aquitaine,11364,1.452759
+2025,76,Occitanie,11870,1.297547
+2025,84,Auvergne et Rhône-Alpes,13957,1.491415
+2025,93,Provence-Alpes-Côte d'Azur,9513,1.227662
+2025,94,Corse,595,1.181047
